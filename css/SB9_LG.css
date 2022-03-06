@@ -1,0 +1,114 @@
+
+
+@media (min-width: 569px) {
+
+    /* undo's
+   --clear styles used on standard radio buttons that break the matrix when it's in table view*/
+    td.form-check {
+        display: table-cell;
+        padding-left: 0em;
+       vertical-align:top;
+    }
+
+    /*--end undo's*/
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: inherit;
+    }
+
+    .mx tbody > tr > td > label:hover {
+        border-style: none;
+        border-color: inherit;
+        background-color: inherit;
+    }
+
+    /* matrix row header*/
+    .mx tbody > tr > th {
+        text-align: left;
+        padding: .5em .5em .5em .5em;
+    }
+
+
+
+    /*turn off cell label*/
+    .mx tbody > tr > td > label {
+        display: none;
+    }
+
+    /* .mx tbody > tr > td > label.radio {
+            display: inline;
+            padding-left: 0px;
+        }*/
+
+
+    /*disable off cell label*/
+    .mx input[type='radio'],.mx input[type='checkbox'] {
+        margin-left: 0em;
+        float: none;
+    }
+
+
+
+    /*cell with no control*/
+    .mx-cell-hide {
+        /*background-color:green;*/
+    }
+    /*cell with disabled radio button*/
+    .mx-cell-disabled {
+        /*background-color:red;*/
+    }
+
+    .mx-cell {
+        text-align: center;
+    }
+
+
+
+    .masthead h1 {
+        vertical-align: middle;
+        padding: 1.7em 0em 0em 3em;
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
+
+/*Fine tune padding and font sizes as the matrix table as the screen grows*/
+@media (min-width: 800px) {
+    .tbl thead > tr > th,
+    .mxplus thead > tr > th,
+    .mxplus thead > tr > td,
+    .mx thead > tr > td,
+    .mx thead > tr > th {
+       
+        font-size: 11px;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+}
+
+@media (min-width: 992px) {
+    .tbl thead > tr > th,
+    .mxplus thead > tr > th,
+    .mxplus thead > tr > td,
+    .mx thead > tr > td,
+    .mx thead > tr > th {
+        font-size: 14px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tbl thead > tr > th,
+    .mxplus thead > tr > th,
+    .mxplus thead > tr > td,
+    .mx thead > tr > td,
+    .mx thead > tr > th {
+        font-size: 16px;
+    }
+}
+
+
