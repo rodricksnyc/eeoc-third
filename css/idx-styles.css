@@ -169,7 +169,10 @@ p.resolved{
 }
 
 .barWrapper .small{
-  font-size:12px
+  font-size:12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .submitted{
@@ -244,19 +247,19 @@ p.gray{
 }
 
 .bBackground .fa-4x:first-child{
-background: rgba(8, 133, 5, 0.11);
-border-radius: 41px 34px 50px;
-padding: 17px;
-color:#088505;
-margin-left:.4em;
-margin-right:.2em
+  background: rgba(8, 133, 5, 0.11);
+  border-radius: 41px 34px 50px;
+  padding: 17px;
+  color:#088505;
+  margin-left:.4em;
+  margin-right:.2em
 }
 
 .bBackground .fa-4x{
-background: rgba(241, 94, 47, 0.14);
-border-radius: 41px 34px 50px;
-padding: 17px;
-color:#9C001D;
+  background: rgba(241, 94, 47, 0.14);
+  border-radius: 41px 34px 50px;
+  padding: 17px;
+  color:#9C001D;
 }
 
 .bBackground .across p{
