@@ -140,12 +140,8 @@ p.submitted i{
 }
 
 .resolved{
-
-
   padding: .5em;
-
   background: transparent;
-
   max-width: 9em;
   display: flex;
   align-items: center;
@@ -273,15 +269,25 @@ p.gray{
   font-weight: 600
 }
 
+.current .across{
+  border-top:none;
+  flex-direction: column;
+}
+
+.current .across:last-child {
+  border-bottom:none
+}
+
+
 .big{
   font-size:2em !important
 }
 
-.background .across span{
+.across span{
   font-weight: 600
 }
 
-.background .across .date{
+.landing-panel .across .date{
   margin-bottom: .2em;
   font-size:14px
 }
@@ -289,6 +295,21 @@ p.gray{
 .background .across:last-child {
   border-bottom: 1px solid #E9E8E2;
   padding-bottom: 1em;
+}
+
+.landing-panel h3{
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0.25rem;
+
+}
+
+.landing-panel p.submitted{
+  background: transparent !important
 }
 
 .smaller{
@@ -299,6 +320,36 @@ p.gray{
 
   max-width:auto !important;
 
+}
+
+.divider{
+  background: linear-gradient(28.25deg, #1A3966 -81.09%, #015CAB 42.46%, #8BD3EF 147%);
+  border-radius: 5px;
+  width: 3px;
+  height: 100%;
+  margin-right: 0.5em;
+  position: absolute;
+  left: 1.5em;
+
+
+}
+.start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.repliesExpanded .across{
+  padding-top:0;
+  margin-top:0
+}
+
+.repliesExpanded{
+  margin:2em auto
+}
+
+.repliesExpanded .across:last-child{
+  padding-bottom: 0em;
 }
 
 @media (min-width:1201px) and (max-width:1550px) {

@@ -95,19 +95,21 @@
 			<div class="landing-panel pt-3 pr-3 pl-3">
 
 				<div class="row d-flex align-items-center">
-					<div class="col-md-1 col-sm-1">
-						<div class="unread">5</div>
-					</div>
-					<div class="col-md-5 col-sm-4">
-						<h2 class="medium black mb-1 pt-0 mt-0">Filing Eligibility and Requirements</h2>
-						<p class="gray">1075 BAYSHORE COMMUNITY HOSPITAL</p>
-
+					<div class="col-md-4 col-sm-1">
+						<h3>Entering Data via File Upload & Certification</h3>
+						<p class="gray">AGOURA HILLS CA - EXCHANGE</p>
 					</div>
 
 
-					<div class="col-md-2 col-sm-3">
-						<p class="newResponse"><span class="bright">!</span> New Response</p>
 
+					<div class="col-md-2 offset-md-1 col-sm-3">
+						<p class="submitted"><i class="far fa-paper-plane mr-2"></i>  Submitted</p>
+
+					</div>
+
+					<div class="col-md-2">
+
+						<p>Days Inactive: 1</p>
 					</div>
 
 					<div class="col-md-2">
@@ -115,7 +117,7 @@
 						<p>02/15/22 8:00am</p>
 					</div>
 
-					<div class="col-md-2">
+					<div class="col-md-1">
 
 						<p>Re: 3</p>
 					</div>
@@ -125,30 +127,27 @@
 
 				<div class="row pt-5 pr-5 pl-5">
 					<div class="col-md-12">
-						<h3>Original Message</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-					</div>
-				</div>
+						<h2 class="text-left black small mb-1">Current Replies</h2>
 
 
+						<div class="current">
+							<div class="across">
+								<p class="date">2/10/2022 5:47:23 PM by <span class="userName">Helpdesk</span></p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-
-				<div class="row background">
-					<div class="col-md-12">
-
-						<div class="pb-5 pr-5 pl-5 pt-3">
-
-							<div class="d-flex justify-content-between align-items-center">
-								<p class="black smaller m-0">Replies</p>
-
-								<i class="far fa-sort-amount-up-alt"></i>
+							</div>
+							<div class="across">
+								<p class="date">2/10/2022 5:47:23 PM by <span class="userName">Helpdesk</span></p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 							</div>
 
-							<div>
+							<div class="position-relative repliesExpanded">
+							<div class="divider"></div>
+							<div class="d-flex flex-column ml-5">
+
 							<div class="across">
-								<p class="date">2/10/2022 5:47:23 PM by <span class="userName">admin</span></p>
+								<p class="date">2/10/2022 5:47:23 PM by <span class="userName">You</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 							</div>
@@ -157,35 +156,68 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 							</div>
-							<div class="across">
-								<p class="date">2/10/2022 5:47:23 PM by <span class="userName">admin</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-							</div>
+						</div>
 						</div>
 
-							<form role="form"  method="POST">
+						</div>
 
-								<div class="form-row mt-3">
+						<form role="form"  method="POST">
 
-									<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+							<div class="form-row mt-3">
 
-										<label for="reply">Reply</label>
+								<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
 
-										<textarea class="form-control access h-auto" id="reply" rows="3"></textarea>
-									</div>
+									<label for="reply">Reply</label>
+
+									<textarea class="form-control access h-auto" id="reply" rows="3"></textarea>
 								</div>
+							</div>
 
 
-								<div class="d-flex justify-content-start align-items-center mb-3">
+							<div class="d-flex justify-content-start align-items-center mb-3">
 
-									<button type="submit" class="btn" id="sendReply">Send</button>
+								<button type="submit" class="btn" id="sendReply">Send</button>
+
+							</div>
+
+
+						</form>
+
+					</div>
+				</div>
+
+
+
+
+				<div class="row background mt-3">
+					<div class="col-md-12">
+
+						<div class="pb-5 pr-5 pl-5 pt-3">
+
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="black smaller m-0">Message History</p>
+
+								<i class="far fa-sort-amount-down-alt"></i>
+
+							</div>
+
+							<div>
+								<div class="across">
+									<p class="date">2/10/2022 5:47:23 PM by <span class="userName">admin</span></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 								</div>
+								<div class="across">
+									<p class="date">2/10/2022 5:47:23 PM by <span class="userName">You</span></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
+								</div>
+								<div class="across">
+									<p class="date">2/10/2022 5:47:23 PM by <span class="userName">admin</span></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-							</form>
-
+								</div>
+							</div>
 
 						</div>
 					</div>
