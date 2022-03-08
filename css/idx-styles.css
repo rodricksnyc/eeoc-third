@@ -322,7 +322,7 @@ p.gray{
 
 }
 
-.divider{
+.message-divider{
   background: linear-gradient(28.25deg, #1A3966 -81.09%, #015CAB 42.46%, #8BD3EF 147%);
   border-radius: 5px;
   width: 3px;
@@ -338,6 +338,31 @@ p.gray{
   justify-content: flex-start;
   align-items: center;
 }
+
+.form-group label {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.form-group select {
+  background-image: linear-gradient(45deg, transparent 50%, #00539f 60%), linear-gradient(135deg, #00539f 40%, transparent 50%) !important;
+  background-position: calc(100% - 18px) 15px, calc(100% - 8px) 15px, 100% 0;
+  background-size: 10px 8px, 10px 8px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  min-width: 120px;
+  border: 2px solid #F15E2F;
+  border-radius: 0;
+  color: black;
+
+}
+
 
 .repliesExpanded .across{
   padding-top:0;
