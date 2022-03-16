@@ -68,9 +68,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 900;
-
   display: flex;
-
   align-items: center;
   justify-content: center;
   margin-top: -1em;
@@ -78,8 +76,6 @@ html {
 }
 
 .bottomMessage{
-
-
   width:90%;
   margin:0 5%;
   bottom:0
@@ -377,6 +373,8 @@ p.gray{
   padding-bottom: 0em;
 }
 
+
+
 @media (min-width:1201px) and (max-width:1550px) {
   .container.full {
     width: 100%;
@@ -403,6 +401,40 @@ p.gray{
     margin-left: auto;
     margin-right: auto;
   }
+
+}
+
+@media (min-width: 992px) {
+.bottom{
+  position: absolute;
+  bottom: 12px;
+
+}
+
+.whiteLarge.noMargin {
+  margin: -4em 0em 1em 0em;
+  padding: 1em 1.25em;
+  min-height: 18em
+}
+
+.whiteLarge.noMargin li{
+line-height: 1.2
+}
+
+.whiteLarge.noMargin .buttonGroup .btn-outline-primary{
+    padding: 1rem 3rem;
+}
+
+.whiteLarge.noMargin .medium{
+  font-size:28px
+}
+}
+
+
+@media (max-width: 991px) {
+.whiteLarge.noMargin {
+    margin: 3em 0em 0em 0em;
+}
 
 }
 
@@ -453,6 +485,8 @@ p.gray{
 .bBackground{
   background: rgba(139, 211, 239, 0.15) !important;
 }
+
+
 /* andrew I added these styles here  */
 
 
