@@ -1,0 +1,58 @@
+
+
+.red{
+  background: linear-gradient(87.72deg, #FF8B3D -39.22%, #FF9371 112.76%) !important;
+  box-shadow: 0px 4px 12px rgba(223, 106, 21, 0.48) !important;
+  border-radius: 10px !important;
+}
+
+.btn.btn--fixed {
+  position: fixed;
+  right: 3em;
+  height: 5em;
+  width: 5em;
+}
+
+.min-button .material-icons{
+  color:black !important
+}
+
+.help-toggle .material-icons{
+  color:white
+}
+
+
+.btn--floating .icon {
+  height: 30px !important;
+  width: 35px !important;
+  font-size: 37px !important;
+}
+
+
+.toolbar.toolbar--dense.toolbar--fixed .toolbar__content{
+  background: linear-gradient(89.9deg, #1A3966 -1.93%, #015CAB 103.42%);
+  border-bottom:none
+}
+
+.toolbar__content{
+  background: white;
+  border-bottom:3px solid #E5422A
+}
+
+
+.message-list-container.toolbar-height-md {
+
+  background: #F4F3F0 !important;
+}
+
+.message-agent .message-bubble, .message-bot .message-bubble{
+  background: #FFFFFF !important;
+  box-shadow: 0px 3px 15px -3px rgba(60, 50, 50, 0.26) !important;
+  border-radius: 10px !important;
+
+}
+
+
+.icon-color.input-button .material-icons{
+  color: #015CAB;
+}

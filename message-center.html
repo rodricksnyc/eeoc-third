@@ -17,6 +17,10 @@
 	<link rel="stylesheet" href="css/idx-styles.css">
 
 
+ <link rel="stylesheet" href="css/replace-vuetify.css">
+
+
+
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -429,7 +433,26 @@
 
 	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
-
+	<script src="https://d18d12ayh24ksb.cloudfront.net/lex-web-ui-loader.min.js"></script>
+	<script>
+	  var loaderOpts = {
+	    baseUrl: 'https://d18d12ayh24ksb.cloudfront.net/',
+	    shouldLoadMinDeps: true
+	  };
+	  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+	  var chatbotUiConfig = {
+	          /* Example of setting session attributes on parent page
+	          lex: {
+	            sessionAttributes: {
+	              userAgent: navigator.userAgent,
+	              QNAClientFilter: ''
+	            }
+	          }
+	          */
+	        };
+	  loader.load(chatbotUiConfig)
+	    .catch(function (error) { console.error(error); });
+	</script>
 
 
 </body>
